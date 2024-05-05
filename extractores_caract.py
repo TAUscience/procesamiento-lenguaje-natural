@@ -1,15 +1,8 @@
 import nltk
 from nltk.tokenize import word_tokenize
-from nltk.corpus import cess_esp
-from nltk.tag import UnigramTagger
-from nltk.corpus import opinion_lexicon
-import gensim
 from collections import Counter
 import math
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.decomposition import PCA
-from gensim.models import Word2Vec
-from nltk import pos_tag
 import spacy
 from spacy.cli.download import download
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
