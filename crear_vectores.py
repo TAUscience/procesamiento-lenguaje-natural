@@ -21,8 +21,8 @@ maynez = leer_archivo('datos/Maynez.csv')
 # Crea un solo vector con los datos de todos los candidatos
 dataset=sheinbaum.copy()
 dataset.extend(xochitl)
-dataset.extend(maynez)
-
+todos=dataset.extend(maynez)
+print(todos)
 
 
 """

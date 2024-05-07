@@ -7,13 +7,13 @@ import spacy
 from spacy.cli.download import download
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-nltk.download('cess_esp')
-nltk.download('punkt')
-nltk.download('opinion_lexicon')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('vader_lexicon')
-download("es_core_news_sm")
-download("es_core_news_md")
+# nltk.download('cess_esp')
+# nltk.download('punkt')
+# nltk.download('opinion_lexicon')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('vader_lexicon')
+# download("es_core_news_sm")
+# download("es_core_news_md")
 
 
 """Función para contar palabras"""
